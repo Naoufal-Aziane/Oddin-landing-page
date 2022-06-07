@@ -16,21 +16,25 @@ body{
     padding: 10px 20px;
 }
 .btn{
-    background-color: #3882f6;
+    background-color: orangered;
     color: #f9faf8;
     text-decoration: none;
     font-size: 18px;
     padding: 10px 30px;
     border-radius: 8px;
 }
+.text-center {
+    text-align: center;
+}
 /* Navbar */
 
 .navbar{
     background-color:#1f2937 ;
     height: 80px;
+    padding: 15px 0;
 }
 .logo{
-    max-width:7%;
+    width:20%;
 }
 .navbar .container {
     display: flex;
@@ -53,14 +57,19 @@ body{
 
 .hero{
     background: linear-gradient(
-        to right bottom,
-        rgba(0, 0, 0, 0.855),
+        to right,
+        #1f2937 10%,
         #1f2937d5
       ),
       url("./imgs/bg-pizza.jpg") top/cover;
-    
+    height: calc(100vh - 80px);
 }
 
+.hero .container {
+    height: 100%;
+    display: flex;
+    align-items: center ;
+}
 
 .hero h1{
     font-weight: bold;
@@ -77,4 +86,42 @@ body{
 }
 .hero .container div *{
     margin-bottom:30px ;
+}
+
+/* Crew Section */
+
+.crew-section{
+    background-color: #e5e7eb;
+}
+.crew-section h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.crew-section .cards {
+    display: flex;
+    gap: 1rem;
+}
+.crew-section .card {
+    width: 100%;
+    border-radius: 15px;
+    padding: 50px 10px;
+    background-color: #e5e7eb;
+}
+.crew-section img {
+    border: rgba(255, 68, 0, 0.811) 3.5px solid ;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.crew-section h3 {
+    font-size: 11px;
+}
+.title {
+    color: orangered;
+    font-size: 14px;
 }
