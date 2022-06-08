@@ -15,6 +15,15 @@ body{
     margin: 0 auto;
     padding: 10px 20px;
 }
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    border-bottom: #1f2937 3px solid;
+    display: inline-block;
+}
 .btn{
     background-color: orangered;
     color: #f9faf8;
@@ -90,17 +99,6 @@ body{
 
 /* Crew Section */
 
-.crew-section{
-    background-color: #e5e7eb;
-}
-.crew-section h2 {
-    color: #1f2937;
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 40px;
-    margin-top: 30px;
-}
-
 .crew-section .cards {
     display: flex;
     gap: 1rem;
@@ -109,7 +107,6 @@ body{
     width: 100%;
     border-radius: 15px;
     padding: 50px 10px;
-    background-color: #e5e7eb;
 }
 .crew-section img {
     border: rgba(255, 68, 0, 0.811) 3.5px solid ;
@@ -124,4 +121,18 @@ body{
 .title {
     color: orangered;
     font-size: 14px;
+}
+
+/* About us section */
+
+.about-section{
+    background-color: #e5e7eb;
+    padding-bottom: 50px;
+
+}
+.about-section .container {
+    width: 1020px;
+}
+.about-section p {
+    line-height: 1.5; 
 }
