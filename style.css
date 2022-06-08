@@ -97,6 +97,11 @@ h2 {
 }
 
 /* Crew Section */
+.crew-section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
 
 .crew-section .cards {
     display: flex;
@@ -127,6 +132,9 @@ h2 {
 .about-section{
     background-color: #e5e7eb;
     padding-bottom: 50px;
+    height: 400px;
+display: flex;
+align-items: center;
 
 }
 .about-section .container {
