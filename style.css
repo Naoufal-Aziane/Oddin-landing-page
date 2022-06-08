@@ -99,9 +99,16 @@ h2 {
 
 /* Crew Section */
 .crew-section{
-    height: 500px;
+    padding-bottom: 5rem;
     display: flex;
     align-items: center;
+}
+
+.crew-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
 }
 
 .crew-section .cards {
@@ -113,32 +120,32 @@ h2 {
     border-radius: 15px;
 }
 .crew-section img {
-    border: rgba(255, 68, 0, 0.811) 3.5px solid ;
-    width: 150px;
-    height: 150px;
+    border: #1f2937 3px solid ;
+    max-width: 250px;
+    height: 250px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
 .crew-section h3 {
-    font-size: 11px;
+    color: #1f2937;
 }
-.title {
-    color: orangered;
-    font-size: 14px;
-}
+
 
 /* About us section */
 
 .about-section{
-    background-color: #e5e7eb;
-    padding-bottom: 50px;
-    height: 400px;
-display: flex;
-align-items: center;
-
+    background-color: #e5e7eb;    
 }
 .about-section .container {
-    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-section .container > *{
+    flex-basis: 100%;
+}
+.about-section img {
+    width: 300px;
 }
 .about-section p {
     line-height: 1.5; 
