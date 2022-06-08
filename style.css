@@ -231,3 +231,14 @@ h2 {
     width: 500px;
 }
 
+
+/* Footer */
+
+.footer {
+    padding: 20px 0;
+    background-color: #263344;
+    color: #f9faf8;
+}
+.footer h3 {
+    font-size: 16px;
+}
